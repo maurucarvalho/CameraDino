@@ -4,7 +4,7 @@ A local application for video monitoring and restreaming. It captures camera str
 
 ## How it works
 
-**Camera Dino** acts essentially as a **Video Restreaming/Transcoding Server**. It utilizes powerful media engines (**go2rtc** and **FFmpeg**) embedded in a fast, local solution.
+**Camera Dino** acts essentially as a **Video Restreaming/Transcoding Server**. It utilizes media engines (**go2rtc** and **FFmpeg**) embedded in a fast, local solution.
 
 It works in the following stages:
 1. **Capture (Ingress):** It connects to a video source (such as an IP Camera, DVR, or NVR) by pulling the original network stream. Typically, these sources transmit using protocols like **RTSP** or **ONVIF**, which are too heavy or unsupported for native web browsers.
