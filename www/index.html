@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Dino</title>
+    <link rel="icon" href="favicon.png?v=2" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-anim"></div>
+    <main class="container">        <section class="video-section" id="videoContainer">
+            <div class="video-wrapper">
+                <video id="videoPlayer" autoplay playsinline muted controls></video>
+            </div>
+            <div id="errorMessage" class="error-msg hidden" style="text-align: center; margin-top: 10px;"></div>
+        </section>
+    </main>
+    <script src="adapter-latest.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

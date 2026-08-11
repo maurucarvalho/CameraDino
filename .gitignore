@@ -1,0 +1,18 @@
+# Compiled Binaries and Executables
+*.exe
+*.dll
+
+# Release and Build Output folders (Published via GitHub Releases)
+Release/
+Output/
+
+# User settings, caches, and temporary config
+*.log
+*.tmp
+*.bak
+
+# IDE, Editor & OS Configuration files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,23 @@
+api:
+  listen: ":1984"
+  static_dir: "www"
+streams:
+        live_camera: onvif://admin:senha@10.92.6.77:8899#rtsp_transport=tcp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
