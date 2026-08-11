@@ -11,7 +11,7 @@ It works in the following stages:
 2. **Processing (Transmuxing):** Running in the background, the program intercepts these raw network packets. Instead of just saving the video, the engine performs a "simultaneous translation" of that protocol, repackaging the video and audio in milliseconds with ultra-low latency.
 3. **Transmission (Egress):** It takes this processed stream and "pushes it back onto the network" under new, much more modern and accessible protocols, such as **WebRTC** or **MSE**. 
 
-If you have a security camera with a complicated RTSP link, Camera Dino acts as a bridge: it sucks in the RTSP and spits out a lightweight web interface that any device on your network (PC, mobile, Smart TV) can open instantly.
+If you have a security camera with a complicated RTSP link, Camera Dino acts as a bridge: it sucks in the RTSP and spits out a lightweight web interface. By simply typing the host computer's local IP address into a browser, any other device on your network (PC, mobile, tablet, Smart TV) can open and watch the streams instantly, without installing any apps!
 
 ## Build and Compilation
 
