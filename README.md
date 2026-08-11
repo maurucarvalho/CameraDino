@@ -1,6 +1,6 @@
 # Camera Dino
 
-A local application for video monitoring and re-streaming. It captures camera feeds via network protocols (such as RTSP and ONVIF) and converts them in real-time for optimized streaming and viewing, in addition to providing continuous video recording.
+A local application for video monitoring and re-streaming. It captures camera feeds via network protocols (such as RTSP and ONVIF) and converts them in real-time for optimized streaming and viewing in a web browser, in addition to providing continuous video recording.
 
 ######Works with only one camera!######
 
