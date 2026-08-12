@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         pc.onconnectionstatechange = () => {
             if (pc.connectionState === 'failed' || pc.connectionState === 'disconnected') {
-                showError('Aguardando configuração no Camera Dino');
+                showError('Waiting for Camera Dino configuration');
             }
         };
 
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (!res.ok) {
-                throw new Error('Aguardando configuração no Camera Dino');
+                throw new Error('Waiting for Camera Dino configuration');
             }
 
             const answerSdp = await res.text();
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
         } catch (err) {
             console.error(err);
-            showError('Aguardando configuração no Camera Dino');
+            showError('Waiting for Camera Dino configuration');
         }
     }
 

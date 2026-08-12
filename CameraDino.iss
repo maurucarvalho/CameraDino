@@ -1,6 +1,6 @@
 [Setup]
 AppName=Camera Dino
-AppVersion=10.0
+AppVersion=10.1
 AppPublisher=Mauro Carvalho
 DefaultDirName={autopf}\Camera Dino
 DisableProgramGroupPage=yes
